@@ -3,4 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home4/uedomh7q/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp assets/css/style.css $DEPLOYPATH
+    - /bin/cp inner-page.html $DEPLOYPATH
+    - /bin/cp portfolio-details.html $DEPLOYPATH
+    - /bin/cp assets $DEPLOYPATH

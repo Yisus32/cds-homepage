@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Ninestars Bootstrap Template</title>
+  <title>U.E. Colegio Domingo Savio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -35,44 +35,39 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="getDescriptions()">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span><b>U.E.<b> Colegio Domingo Savio</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">Nosotros</a></li>
+          <li class="dropdown"><a href="#"><span>Oferta</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="index.html#services">Oferta Académica</a></li>
+              <li><a href="index.html#portfolio">Ejes de formación</a></li>
+              <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li class="dropdown"><a href="#"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Noticias</a></li>
+              <li><a href="#">Memorandos</a></li>
+              <li><a href="#">Horarios</a></li>
+              <li><a href="#">Calendario</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="getstarted scrollto" href="http://127.0.0.1:8000/login">Ingresar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,29 +82,29 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2>Detalles de la Asignatura</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li>Portfolio Details</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#portfolio">Ejes de formación</a></li>
+            <li id="subject-breadcrumb"></li>
           </ol>
         </div>
 
       </div>
     </section><!-- Breadcrumbs Section -->
 
-    <!-- ======= Portfolio Details Section ======= -->
+    <!-- ======= Portfolio Details Section ======= class="portfolio-details-slider swiper" -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
         <div class="row gy-4">
 
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
+            <div>
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="" id="subject-img">
                 </div>
 
                 <div class="swiper-slide">
@@ -127,18 +122,18 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Información de la cátedra</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li id="subject-name"></li>
+                <li id="subject-teacher"></p></li>
+                <li id="subject-hours"></p></li>
+                <li id="subject-requirements"></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              <h2>Descripción de la cátedra</h2>
+              <p id="subject-description">
+               
               </p>
             </div>
           </div>
@@ -157,10 +152,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>¿Quieres conocer más?</h4>
+            <p>Suscríbete a nuestro boletín para recibir información personalizada</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Suscribirse">
             </form>
           </div>
         </div>
@@ -172,46 +167,45 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Ninestars</h3>
+           <h4>Contacto</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Barrio Sucre, Calle 1ra Casa 3-38 <br>
+              San Cristóbal<br>
+              Táchira Venezuela <br><br>
+              <strong>Telefono:</strong> +58 0424-7289787<br>
+              <strong>Email:</strong> admon@uedomingosavio.com<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links de interés</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#hero">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Oferta Académica</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#contact">Contacto</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Noticias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Memorando</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Horarios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Calendario</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>Nuestras Redes Sociales</h4>
+            <p>Manténgase conectado y conozca todas nuestras actualizaciones</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://discord.gg/9Mf9yhky" class="twitter"><i class="bx bxl-discord"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="https://www.instagram.com/colegiodomingosavio.sc/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://api.whatsapp.com/send/?phone=584247289787&text&type=phone_number&app_absent=0" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
@@ -222,17 +216,15 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Ninestars</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Coordinación de Sistemas</span></strong>. Todos los derechos reservados
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        👨‍💻 Usando tecnología OpenSource con 🧡</a>
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -244,8 +236,9 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/descriptions.js"></script>
 
 </body>
 

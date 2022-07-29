@@ -1,0 +1,92 @@
+{
+	"astronomy":{
+		"name":"Astronomía",
+		"teacher":"Ing. Javier Moncada",
+		"hours":"4 Horas semanales",
+		"pre_requirements":"Ninguno",
+		"description":"La Astronomía es una ciencia natural que procura explicar al Universo más allá de nuestro diminuto entorno, es, a su vez, una ciencia experimental que permite medir, cuantificar, comparar y reflexionar sobre fenómenos, buscándoles una explicación racional y no supersticiosa. Como no puede remitirse a un laboratorio, contribuye a desarrollar una mayor capacidad en la búsqueda de soluciones de manera muy diversa. En síntesis: ayuda a agudizar el ingenio para mejorar la resolución de situaciones.",
+		"images":{
+			"pic_01":"portfolio-3.png"
+		}
+	},
+	"robotics":{
+		"name":"Robótica",
+		"teacher":"Ing. Jesús Altuve",
+		"hours":"4 Horas semanales",
+		"pre_requirements":"Ninguno",
+		"description":"La robótica es la ciencia que se encarga de la construcción de robots y aparatos que realizan acciones de trabajo apoyándose en otras ciencias auxiliares tales como es el caso de la matemática, la lógica, la física y la computación. En esta unidad curricalor, se busca insentivar el sentido de la creatividad y el pensamiento computacional de los participantes.",
+		"images":{
+			"pic_01":"portfolio-1.png"
+		}
+	},
+	"nanotechnology":{
+		"name":"Nanotecnología",
+		"teacher":"Ing. Hofman Villalta",
+		"hours":"4 Horas semanales",
+		"pre_requirements":"Ninguno",
+		"description":"La nanotecnología es la ciencia de las pequeñas cosas, en donde los participantes serán capaces de conocer el significado y la importancia de la nanotecnología en la vida cotidiana mediante las representaciones a escala, prácticas de laboratorio y la simulación haciendo uso de la realidad virtual.",
+		"images":{
+			"pic_01":"portfolio-6.png"
+		}
+	},
+	"swiming":{
+		"name":"Natación",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":"portfolio-5.png"
+		}
+	},
+	"running":{
+		"name":"Atletismo",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":"portfolio-9.png"
+		}
+	},
+	"soccer":{
+		"name":"Fútbol",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":"portfolio-2.png"
+		}
+	},
+	"music":{
+		"name":"Música",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":"portfolio-8.png"
+		}
+	},
+	"bakery":{
+		"name":"Repostería",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":""
+		}
+	},
+	"ballet":{
+		"name":"Ballet",
+		"teacher":"Por asignar",
+		"hours":"Por asignar",
+		"pre_requirements":"Ninguno",
+		"description":"Esta descripcion no está disponible por el momento.",
+		"images":{
+			"pic_01":"portfolio-4.png"
+		}
+	}
+}

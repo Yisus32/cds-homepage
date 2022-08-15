@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ee7843;
+  background: #bb1c1f;
   color: #fff;
 }
 .back-to-top.active {
@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -95,18 +96,28 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 90px;
 }
 
 #main {
   margin-top: 72px;
 }
 
-.particles{
-  margin-top: -717px;
-
+@media (min-width: 992px) {
+  .foward {
+    position: absolute; 
+    z-index: 5px;
+    margin: 150px;
+  }
 }
 
+@media (max-width: 992px) {
+  .foward {
+    position: absolute; 
+    z-index: 5px;
+    margin: 0 auto;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -307,16 +318,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-bottom: 2px solid #fcebe3;
   margin: 72px 0 -72px 0;
   opacity: 0.9;
+
 }
 #hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #4e4039;
+  color: #FFFFFF;
 }
 #hero h2 {
-  color: #a08f86;
+  color: #FFFFFF;
   margin: 15px 0 0 0;
   font-size: 24px;
 }
@@ -610,7 +622,7 @@ section {
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(187, 28, 31, 0.6);
   position: absolute;
   left: 100%;
   right: 0;
@@ -767,7 +779,7 @@ section {
   font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
-  color: #ee7843;
+  color: #bb1c1f;
   transition: 0.3s;
 }
 .faq .faq-list i {
@@ -1109,7 +1121,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #ee7843;
+  background: #bb1c1f;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;

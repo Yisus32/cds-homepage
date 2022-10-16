@@ -2,32 +2,38 @@
 	"astronomy":{
 		"name":"Astronomía",
 		"teacher":"Ing. Javier Moncada",
-		"hours":"4 Horas semanales",
+		"hours":"2 Horas semanales",
 		"pre_requirements":"Ninguno",
 		"description":"La Astronomía es una ciencia natural que procura explicar al Universo más allá de nuestro diminuto entorno, es, a su vez, una ciencia experimental que permite medir, cuantificar, comparar y reflexionar sobre fenómenos, buscándoles una explicación racional y no supersticiosa. Como no puede remitirse a un laboratorio, contribuye a desarrollar una mayor capacidad en la búsqueda de soluciones de manera muy diversa. En síntesis: ayuda a agudizar el ingenio para mejorar la resolución de situaciones.",
-		"images":{
-			"pic_01":"portfolio-3.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"robotics":{
 		"name":"Robótica",
 		"teacher":"Ing. Jesús Altuve",
-		"hours":"4 Horas semanales",
+		"hours":"2 Horas semanales",
 		"pre_requirements":"Ninguno",
 		"description":"La robótica es la ciencia que se encarga de la construcción de robots y aparatos que realizan acciones de trabajo apoyándose en otras ciencias auxiliares tales como es el caso de la matemática, la lógica, la física y la computación. En esta unidad curricalor, se busca insentivar el sentido de la creatividad y el pensamiento computacional de los participantes.",
-		"images":{
-			"pic_01":"portfolio-1.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"nanotechnology":{
 		"name":"Nanotecnología",
 		"teacher":"Ing. Hofman Villalta",
-		"hours":"4 Horas semanales",
+		"hours":"2 Horas semanales",
 		"pre_requirements":"Ninguno",
 		"description":"La nanotecnología es la ciencia de las pequeñas cosas, en donde los participantes serán capaces de conocer el significado y la importancia de la nanotecnología en la vida cotidiana mediante las representaciones a escala, prácticas de laboratorio y la simulación haciendo uso de la realidad virtual.",
-		"images":{
-			"pic_01":"portfolio-6.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"swiming":{
 		"name":"Natación",
@@ -35,9 +41,11 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":"portfolio-5.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"running":{
 		"name":"Atletismo",
@@ -45,9 +53,11 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":"portfolio-9.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"soccer":{
 		"name":"Fútbol",
@@ -55,9 +65,11 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":"portfolio-2.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"music":{
 		"name":"Música",
@@ -65,9 +77,11 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":"portfolio-8.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"bakery":{
 		"name":"Repostería",
@@ -75,9 +89,11 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":""
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	},
 	"ballet":{
 		"name":"Ballet",
@@ -85,8 +101,10 @@
 		"hours":"Por asignar",
 		"pre_requirements":"Ninguno",
 		"description":"Esta descripcion no está disponible por el momento.",
-		"images":{
-			"pic_01":"portfolio-4.png"
-		}
+		"images":[
+			"https://i.ibb.co/VL1zwt3/nano1.jpg",
+			"https://i.ibb.co/qY4jw0S/nano2.jpg",
+			"https://i.ibb.co/YLNDF63/nano3.jpg"
+		]
 	}
 }

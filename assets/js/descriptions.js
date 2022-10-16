@@ -18,7 +18,8 @@ const getDescriptions = () => {
                 	const subjectTeacher = document.getElementById('subject-teacher');
                 	const subjectHours = document.getElementById('subject-hours');
                 	const subjectPreRequirements = document.getElementById('subject-requirements');
-                	const subjectImage = document.getElementById('subject-img');
+                	const subjectImage = document.getElementsByName('subject-img');
+
 
                 	if (subject === 'robotics') {
                 		data = data.robotics;
@@ -40,13 +41,15 @@ const getDescriptions = () => {
                 		data = data.running;
                 	}
 
+
                 	subjectName.innerHTML = '<strong>Nombre</strong>: '+data.name;
             		subjectTeacher.innerHTML = '<strong>Docente</strong>: '+data.teacher;
             		subjectHours.innerHTML = '<strong>Horas académicas</strong>: '+data.hours;
             		subjectPreRequirements.innerHTML = '<strong>Pre-requisitos</strong>: '+data.pre_requirements
             		subjectBreadcrumb.innerHTML = data.name;
             		subjectDescription.innerHTML = data.description;
-            		subjectImage.src = 'assets/img/portfolio/'+data.images.pic_01;
+            		subjectImage.forEach((element, i = 0) => element.src = data.images[i] )
+            		console.log(subjectImage)
             })
          })
 		.then(json => console.log(json))

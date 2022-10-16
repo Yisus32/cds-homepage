@@ -31,6 +31,14 @@
 
 <body>
 
+  <div class="social-bar">
+    <a href="https://discord.gg/TmD6hr5AGb" class="baricon icon-discord" target="_blank"><i class="bx bxl-discord"></i></a>
+    
+    <a href="https://api.whatsapp.com/send/?phone=584247289787&text&type=phone_number&app_absent=0" class="baricon icon-whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+    <a href="https://www.youtube.com/channel/UCk8dtst1TkRn-hK5AyMyXUQ" class="baricon icon-youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+    <a href="https://www.instagram.com/colegiodomingosavio.sc/" class="baricon icon-instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+  </div>
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -47,12 +55,20 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-          <li class="dropdown"><a href="#"><span>Oferta</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Nosotros</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Misión</a></li>
+              <li><a href="#">Visión</a></li>
+              <li><a href="#">Origenes</a></li>
+              <li><a href="#">Nuestro staff</a></li>
+              <li><a href="#">Proyecto NARBED</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Academia</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#services">Oferta Académica</a></li>
               <li><a href="#portfolio">Ejes de formación</a></li>
-              <li><a href="#faq">Preguntas Frecuentes</a></li>
+              <li><a href="#clients">Convenios</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
@@ -74,14 +90,16 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div class="overposition">
+  <div >
     <section id="hero" class="d-flex align-items-center">
+
       <canvas></canvas>
+      
           <div class="container foward">
             <div class="row gy-4" >
               <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                 <h1>¡Formación integral con visión de futuro!</h1>
-                <h2>Explorando y potenciando las vocaciones científicas en nuestra región.</h2>
+                <h2>Explorando y potenciando las vocaciones científicas en el estado Táchira.</h2>
                 <div>
                   <a href="#about" class="btn-get-started scrollto">Conózcanos</a>
                 </div>
@@ -92,79 +110,52 @@
             </div>
           </div>
     </section>
-       <!-- End Hero -->
+    <!-- End Hero -->
+  </div>
+   <div>
+     <marquee loop
+              class="notice-bg"
+              id="marquee"
+      >
+        📍 Barrio Sucre, Calle 1ra Casa 3-38, San Cristobal, Estado Táchira, Venezuela | 📞 Telefono: +58 34 57 456 | 💱 Tasa del Día: BCV
+
+      </marquee>
   </div>
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
+        <div class="section-title">
+          <h2>¿Quienes somos?</h2>
+          <p>Un lugar para divertirse aprendiendo</p>
+        </div>
+        
         <div class="row justify-content-between">
-          <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
-            <img src="assets/img/branch/tablet.svg" class="img-fluid fix-image" alt="" data-aos="zoom-in" >
-          </div>
           <div class="col-lg-6 pt-5 pt-lg-0">
-            <h3 data-aos="fade-up">Educación de calidad para mentes brillantes.</h3>
-            <p data-aos="fade-up" data-aos-delay="100">
-              Contamos con personal docente altamente calificado y responsable con el objetivo de brindar formación integral a nuestra matrícula estudiantil.
-            </p>
             <div class="row">
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <i class="bx bx-receipt"></i>
-                <h4>Visión</h4>
-                <p>Promover el desarrollo organizacional, gerencial, académico, la fraternidad por el conocimiento, la innovación y el emprendimiento en todos los niveles educativos.</p>
+                <h4>Paz</h4>
+                <p>La ciencia, debe ser entendida por nuestros ciberestudiantes como una nave nodriza que
+                    permita la construcción de la paz al fomentar la cooperación internacional para alcanzar el
+                    desarrollo sostenible.
+               </p>
               </div>
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <i class="bx bx-bullseye"></i>
-                <h4>Misión</h4>
-                <p>Educar a niñas, niños, jóvenes y adolescentes mediante la prestación de servicios eficientes, innovadores y de emprendimiento.</p>
+                <h4>Espiritualidad</h4>
+                <p>Es una construcción multidireccional y permanente por un sistema de valores; amistad, sinceridad,
+                  honestidad, honor, obediencia para alcanzar la comprensión de sí mismo, el mundo, la naturaleza y el
+                  cosmos.
+                </p>
               </div>
-              <!-- ============== Video Carousel ================= -->
+            </div>
+          </div>
 
-              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                </div>
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/VfTrlrseHLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="First slide"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                      <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/eVZk6BpDGHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Second slide"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                      <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/KYDo_kjQhQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Third slide"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                      <iframe class="d-block w-100" class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/gt2MJ7dRdBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Fourth slide"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                      <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/TZnRtGM8bA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Fifth slide"></iframe>
-                    </div>
-                    <div class="carousel-item">
-                      <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/URBtFP2HI5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Sixth slide"></iframe>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                  </button>
-
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                  </button>
-              </div>
-
-              <!-- ============== End Video Carousel ================= -->
-
+          <div class="col-lg-6 pt-5 pt-lg-0">
+            <div class="row">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/A2IqNP4-S9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -185,8 +176,8 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Deporte</a></h4>
-              <p class="description">Promocionamos la practica del deporte y la recreación como actividades que formen parte de un estilo de vida saludable.</p>
+              <h4 class="title"><a href="">Gamificación</a></h4>
+              <p class="description">Promocionamos practica de la gamificación mediante actividades deportivas que ayuden a fomentar un estilo de vida saludable.</p>
             </div>
           </div>
 
@@ -224,7 +215,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Ejes de formación</h2>
+          <h2>Ejes transversales</h2>
           <p>Actividades complementarias</p>
         </div>
 
@@ -263,7 +254,7 @@
                 <a href="portfolio-details.html?subject=soccer" title="More Details"><i class="bi bi-link"></i></a>
               </div>
               <div class="portfolio-info">
-                <h4>Deporte y Recreación</h4>
+                <h4>Gamificación</h4>
                 <p>Fútbol</p>
               </div>
             </div>
@@ -372,75 +363,27 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>F.A.Q</h2>
-          <p>Preguntas Frecuentes</p>
+          <h2>Convenios</h2>
+          <p>Instituciones aliadas</p>
         </div>
 
-        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
-
-          <li>
-            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Quienes pueden estudiar aquí? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                El Colegio Bilingüe Domingo Savio tiene sus puertas abiertas para todos los niños, niñas y adolescentes de mentes inquietas y en busca de conocimiento, interesados en el aprendizaje de las ciencias y las artes. Nuestra institución busca impulsar mentes brillantes útiles a la nación.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">¿Son una institución pública o privada? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                El Colegio Bilingüe Domingo Savio es una institución dependiente del Ministerio del Poder Popular para la Educación de carácter privado.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">¿Qué niveles educativos ofrecen? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                En un primer escenario, ofrecemos educación básica (1ro a 6to grado). Sin embargo, apuntamos a la consolidación de ofrecer estudios en todos los niveles edutacativos (Básica y Bachillerato) en un futuro no muy lejano.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">¿Cuánto cuesta una mensualidad? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Nuestras tarifas son una de las más amigables en el entorno educativo, sin embargo, esto no significa que nuestra calidad sea menor en comparación a otras instituciones. Para saber más sobre precios y mensualidades <a href="index.html#contact">escríbenos</a> y con mucho gusto serás atendido por nuestro personal de administración .
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">¿En qué se diferencia U.E. Colegio Domingo Savio a otros colegios de la región? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Buscamos la promoción de una nueva educación que sea capaz de romper los paradigmas de la educación tradicional, apoyándonos en el uso de herramientas tecnológicas que faciliten el proceso de enseñanza/aprendizaje y de esta forma demostrar que con la tecnología podemos lograr grandes objetivos. Generamos una trascendencia del aula tradicional al aula del futuro.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">¿Tienen convenios con universidades o empresas del sector público o privado? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Si, actualmente apuntamos a la puesta en marcha de convenios y alianzas con personas naturales o jurídicas, nacionales o extranjeras, del sector público o privado para el fortalecimiento académico de sus estudiantes. Establecido según el artículo 57 de la Ley Orgánica de Educación.
-              </p>
-            </div>
-          </li>
-
-        </ul>
+        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/partners/nasa.svg" class="img-fluid" alt="NASA"></div>
+            <div class="swiper-slide"><img src="assets/img/partners/civ.svg" class="img-fluid" alt="CIV"></div>
+            <div class="swiper-slide"><img src="assets/img/partners/fundacite.svg" class="img-fluid" alt="FUNDACITE"></div>
+            <div class="swiper-slide"><img src="assets/img/partners/cida.svg" class="img-fluid" alt="CIDA"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section><!-- End Clients Section -->
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
@@ -555,11 +498,11 @@
             <h4>Nuestras Redes Sociales</h4>
             <p>Manténgase conectado y conozca todas nuestras actualizaciones</p>
             <div class="social-links mt-3">
-              <a href="https://discord.gg/9Mf9yhky" class="twitter"><i class="bx bxl-discord"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/colegiodomingosavio.sc/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://discord.gg/TmD6hr5AGb" class="twitter"><i class="bx bxl-discord"></i></a>
               <a href="https://api.whatsapp.com/send/?phone=584247289787&text&type=phone_number&app_absent=0" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCk8dtst1TkRn-hK5AyMyXUQ" class="linkedin"><i class="bx bxl-youtube"></i></a>
+              <a href="https://www.instagram.com/colegiodomingosavio.sc/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              
             </div>
           </div>
 
@@ -592,8 +535,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/particles.js"></script>
-   <script src="assets/js/galaxy.js"></script>
+  <script src="assets/js/galaxy.js"></script>
   <script src="assets/js/discord.js"></script>
+  <script src="assets/js/slider.js"></script>
 
 </body>
 
